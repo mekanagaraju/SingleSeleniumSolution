@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9042" started-at="2017-03-15T09:57:26Z" finished-at="2017-03-15T09:57:35Z">
+    <groups>
+      <group name="sample-test">
+        <method signature="GoogleTest.testGooglePage()[pri:0, instance:com.sss.test.GoogleTest@76b10754]" name="testGooglePage" class="com.sss.test.GoogleTest"/>
+      </group> <!-- sample-test -->
+    </groups>
+    <test name="Default test" duration-ms="9042" started-at="2017-03-15T09:57:26Z" finished-at="2017-03-15T09:57:35Z">
+      <class name="com.sss.test.GoogleTest">
+        <test-method status="PASS" signature="setBeforeTest(java.lang.reflect.Method)[pri:0, instance:com.sss.test.GoogleTest@76b10754]" name="setBeforeTest" is-config="true" duration-ms="7107" started-at="2017-03-15T15:27:26Z" finished-at="2017-03-15T15:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sss.test.GoogleTest.testGooglePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBeforeTest -->
+        <test-method status="PASS" signature="testGooglePage()[pri:0, instance:com.sss.test.GoogleTest@76b10754]" name="testGooglePage" duration-ms="574" started-at="2017-03-15T15:27:33Z" description="Sample test case" finished-at="2017-03-15T15:27:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sss.test.GoogleTest@76b10754]" name="closeBrowser" is-config="true" duration-ms="1350" started-at="2017-03-15T15:27:34Z" finished-at="2017-03-15T15:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sss.test.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
